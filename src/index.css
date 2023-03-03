@@ -9,6 +9,15 @@
 body {
   width: 100%;
   overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* @font-face {

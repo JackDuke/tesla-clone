@@ -5,10 +5,10 @@ function Section({ title, description, backgroundImg, leftBtnText, rightBtnText 
     // console.log(props);
   return (
     <Wrap bgImage = { backgroundImg }>
-        <ItemText>
-            <h1>{ title }</h1>
-            <p>{ description }</p>
-        </ItemText>
+            <ItemText>
+                <h1>{ title }</h1>
+                <p>{ description }</p>
+            </ItemText>
         <Buttons>
             <ButtonGroup>
                 <LeftButton>

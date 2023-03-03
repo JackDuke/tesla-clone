@@ -17,7 +17,7 @@ function Home() {
           description="Order Online for Touchless Delivery"
           backgroundImg="model-3.jpg"
           leftBtnText="Custom Order"
-          rightBtnText="Existing Inventory"
+          rightBtnText="Demo Drive"
         />
         <Section
           title="Model X"
@@ -31,7 +31,27 @@ function Home() {
           description="Order Online for Touchless Delivery"
           backgroundImg="model-y.jpg"
           leftBtnText="Custom Order"
-          rightBtnText="Existing Inventory"
+          rightBtnText="Demo Drive"
+        />
+        <Section
+          title="Solar Panels"
+          description="Lowest Cost Solar Panels in America"
+          backgroundImg="solar-panel.jpg"
+          leftBtnText="Order now"
+          rightBtnText="Learn more"
+        />
+        <Section
+          title="Solar Roofs"
+          description="Produce Clean Energy From Your Roof"
+          backgroundImg="solar-roof.jpg"
+          leftBtnText="Order now"
+          rightBtnText="Learn more"
+        />
+        <Section
+          title="Accessories"
+          description=""
+          backgroundImg="accessories.jpg"
+          leftBtnText="Order now"
         />
     </Container>
   )

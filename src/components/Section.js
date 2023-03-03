@@ -14,9 +14,11 @@ function Section({ title, description, backgroundImg, leftBtnText, rightBtnText 
                 <LeftButton>
                 { leftBtnText }
                 </LeftButton>
-                <RightButton>
-                { rightBtnText }
-                </RightButton>
+                { rightBtnText &&
+                    <RightButton>
+                        { rightBtnText }
+                    </RightButton>
+                }
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg" />
         </Buttons>
@@ -61,7 +63,6 @@ const LeftButton = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    opacity: 0.85;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
@@ -70,7 +71,6 @@ const LeftButton = styled.div`
 
 const RightButton = styled(LeftButton)`
     background: white;
-    opacity: 0.65;
     color: black;
 `
 

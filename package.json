@@ -1,5 +1,6 @@
 {
   "name": "tesla-clone",
+  "homepage": "https://tesla-clone-site.web.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
